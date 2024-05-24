@@ -15,7 +15,7 @@ const ToDo = ({id, todo, isCompleted}: TodoProps) => {
 
   return (
     
-    <div>
+    <div className={styles.toDo}>
         <input type="checkbox" 
         id={id} 
         onChange={(e) => setCompleted(e.target.checked)} 

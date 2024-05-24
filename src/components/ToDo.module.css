@@ -3,3 +3,11 @@
     text-decoration: line-through;
 
 }
+
+.toDo {
+
+    background-color: var(--grey);
+    padding: 0.5rem;
+    color: var(--text);
+
+}
